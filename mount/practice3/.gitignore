@@ -1,0 +1,3 @@
+*.wav
+!input.wav
+*.csv
