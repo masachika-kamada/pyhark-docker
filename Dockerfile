@@ -25,7 +25,7 @@ RUN apt-get update && \
     libhark-lib \
     python3-hark-lib \
     python3-pip && \
-    pip install https://github.com/kivy-garden/graph/archive/master.zip \
+    pip install https://github.com/kivy-garden/graph/archive/master.zip && \
     ln -s /usr/bin/python3 /usr/bin/python
 
 CMD ["fish"]
